@@ -1,5 +1,8 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.AspNetCore.Builder;
+using Scalar.AspNetCore;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddOpenApi();
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -11,6 +14,12 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+if (app.Environment.IsDevelopment())
+{
+    app.MapOpenApi();
+    app.MapScalarApiReference();
+}
 
 app.MapControllers();
 
