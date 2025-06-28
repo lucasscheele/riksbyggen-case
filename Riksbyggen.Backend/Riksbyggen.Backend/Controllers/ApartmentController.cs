@@ -19,6 +19,30 @@ namespace Riksbyggen.Backend.Controllers
             return Ok(apartments);
         }
 
-        
+        [HttpGet]
+        [Route("expiring-contracts")]
+        public async Task<ActionResult<IEnumerable<Apartment>>> GetApartmentsWithExpiringContracts(int companyId)
+        {
+            var currentDate = DateTime.Now.Date;
+            var apartments = await context.Apartments
+                .Where(x => x.CompanyId == companyId)
+                .Include(x => x.Contracts)
+                .ToListAsync();
+
+
+            if (apartments.Count == 0)
+            {
+                return NotFound("No apartments found for company");
+            }
+
+            var apartmentsWithExpiringContracts = apartments.Where(
+                apartment => apartment.Contracts.Any(
+                    contract =>
+                     contract.EndDate > currentDate &&
+                     contract.EndDate < currentDate.AddMonths(3)
+            ));
+           
+            return Ok(apartmentsWithExpiringContracts);
+        }
     }
 }

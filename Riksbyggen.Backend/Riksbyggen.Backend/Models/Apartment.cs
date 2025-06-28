@@ -11,7 +11,6 @@ namespace Riksbyggen.Backend.Models
 
         [ForeignKey(nameof(Company))]
         public int CompanyId { get; set; }
-        public Company Company { get; set; } = null!;
 
         [Required]
         public string Address { get; set; } = null!;

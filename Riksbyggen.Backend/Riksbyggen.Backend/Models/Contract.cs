@@ -11,7 +11,6 @@ namespace Riksbyggen.Backend.Models
 
         [ForeignKey(nameof(Apartment))]
         public int ApartmentId { get; set; }
-        public Apartment Apartment { get; set; } = null!;
 
         [Required]
         public DateTime StartDate { get; set; }
