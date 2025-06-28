@@ -1,0 +1,21 @@
+# .gitignore for riksbyggen
+
+# Local configuration files
+.env
+appsettings.Development.json
+
+# IDE folders
+.vs/
+
+# .NET build outputs
+**/bin/
+**/obj/
+
+# Node dependencies
+*/node_modules/
+
+# Docker Compose override (local tweaks)
+docker-compose.override.yml
+
+# Ignore user-specific files
+*.csproj.user
