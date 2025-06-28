@@ -9,5 +9,7 @@ namespace Riksbyggen.Backend.Models
 
         [Required]
         public string Name { get; set; } = null!;
+
+        public ICollection<Apartment> Contracts { get; set; } = [];
     }
 }
