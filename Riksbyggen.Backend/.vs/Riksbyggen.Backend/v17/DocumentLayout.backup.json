@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7244B413-1B96-430F-8341-948FA6148CAC}|Riksbyggen.Backend\\Riksbyggen.Backend.csproj|c:\\users\\lucas\\source\\repos\\riksbyggen\\riksbyggen.backend\\riksbyggen.backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244B413-1B96-430F-8341-948FA6148CAC}|Riksbyggen.Backend\\Riksbyggen.Backend.csproj|solutionrelative:riksbyggen.backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244B413-1B96-430F-8341-948FA6148CAC}|Riksbyggen.Backend\\Riksbyggen.Backend.csproj|c:\\users\\lucas\\source\\repos\\riksbyggen\\riksbyggen.backend\\riksbyggen.backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7244B413-1B96-430F-8341-948FA6148CAC}|Riksbyggen.Backend\\Riksbyggen.Backend.csproj|solutionrelative:riksbyggen.backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244B413-1B96-430F-8341-948FA6148CAC}|Riksbyggen.Backend\\Riksbyggen.Backend.csproj|c:\\users\\lucas\\source\\repos\\riksbyggen\\riksbyggen.backend\\riksbyggen.backend\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244B413-1B96-430F-8341-948FA6148CAC}|Riksbyggen.Backend\\Riksbyggen.Backend.csproj|solutionrelative:riksbyggen.backend\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244B413-1B96-430F-8341-948FA6148CAC}|Riksbyggen.Backend\\Riksbyggen.Backend.csproj|c:\\users\\lucas\\source\\repos\\riksbyggen\\riksbyggen.backend\\riksbyggen.backend\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7244B413-1B96-430F-8341-948FA6148CAC}|Riksbyggen.Backend\\Riksbyggen.Backend.csproj|solutionrelative:riksbyggen.backend\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244B413-1B96-430F-8341-948FA6148CAC}|Riksbyggen.Backend\\Riksbyggen.Backend.csproj|c:\\users\\lucas\\source\\repos\\riksbyggen\\riksbyggen.backend\\riksbyggen.backend\\riksbyggen.backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{7244B413-1B96-430F-8341-948FA6148CAC}|Riksbyggen.Backend\\Riksbyggen.Backend.csproj|solutionrelative:riksbyggen.backend\\riksbyggen.backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7244B413-1B96-430F-8341-948FA6148CAC}|Riksbyggen.Backend\\Riksbyggen.Backend.csproj|c:\\users\\lucas\\source\\repos\\riksbyggen\\riksbyggen.backend\\riksbyggen.backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7244B413-1B96-430F-8341-948FA6148CAC}|Riksbyggen.Backend\\Riksbyggen.Backend.csproj|solutionrelative:riksbyggen.backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\Riksbyggen.Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Riksbyggen.Backend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\Riksbyggen.Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Riksbyggen.Backend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T07:29:18.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\Riksbyggen.Backend\\Dockerfile",
+              "RelativeDocumentMoniker": "Riksbyggen.Backend\\Dockerfile",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\Riksbyggen.Backend\\Dockerfile",
+              "RelativeToolTip": "Riksbyggen.Backend\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-28T07:14:58.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Riksbyggen.Backend.http",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\Riksbyggen.Backend\\Riksbyggen.Backend.http",
+              "RelativeDocumentMoniker": "Riksbyggen.Backend\\Riksbyggen.Backend.http",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\Riksbyggen.Backend\\Riksbyggen.Backend.http",
+              "RelativeToolTip": "Riksbyggen.Backend\\Riksbyggen.Backend.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-28T07:10:12.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\Riksbyggen.Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Riksbyggen.Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\Riksbyggen.Backend\\Program.cs",
+              "RelativeToolTip": "Riksbyggen.Backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T07:10:10.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\Riksbyggen.Backend\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "Riksbyggen.Backend\\Controllers\\CompanyController.cs",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\Riksbyggen.Backend\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "Riksbyggen.Backend\\Controllers\\CompanyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:50:31.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\Riksbyggen.Backend\\Company.cs",
+              "RelativeDocumentMoniker": "Riksbyggen.Backend\\Company.cs",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\Riksbyggen\\Riksbyggen.Backend\\Riksbyggen.Backend\\Company.cs",
+              "RelativeToolTip": "Riksbyggen.Backend\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:49:37.599Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

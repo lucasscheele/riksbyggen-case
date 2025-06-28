@@ -1,0 +1,6 @@
+@Riksbyggen.Backend_HostAddress = http://localhost:5081
+
+GET {{Riksbyggen.Backend_HostAddress}}/api/company/get
+Accept: application/json
+
+###
