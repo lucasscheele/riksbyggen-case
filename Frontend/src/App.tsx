@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { CompanyList } from "./components/company/CompanyList";
 
 export default function App() {
   const apiBaseUrl = 'http://localhost:5000/api';
@@ -12,10 +13,8 @@ export default function App() {
   }, []);
 
   return (
-    <ul>
-      {companies.map(c => (
-        <li key={c.id}>{c.name}</li>
-      ))}
-    </ul>
+    <CompanyList
+        companies={companies}
+      />
   );
 }
