@@ -1,17 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useCompaniesLoader } from "./hooks/useCompaniesLoader";
+
 import { CompanyList } from "./components/company/CompanyList";
 
+
 export default function App() {
-  const apiBaseUrl = 'http://localhost:5000/api';
-  const [companies, setCompanies] = useState<{ id: number; name: string }[]>([]);
-
-  useEffect(() => {
-    fetch(`${apiBaseUrl}/company`)
-      .then(r => r.json())
-      .then(data => setCompanies(data))
-      .catch(() => setCompanies([]));
-  }, []);
-
+  const companies = useCompaniesLoader();
   return (
     <CompanyList
         companies={companies}
