@@ -5,6 +5,15 @@ using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -22,14 +31,16 @@ app.UseAuthorization();
 
 if (app.Environment.IsDevelopment())
 {
+    app.UseCors("AllowAll");
     app.MapOpenApi();
     app.MapScalarApiReference();
-
+   
     using var scope = app.Services.CreateScope();
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
     db.Database.EnsureCreated();
 }
+
 
 app.MapControllers();
 
