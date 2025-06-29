@@ -1,4 +1,4 @@
-import type { Company } from "../types/models";
+import type { Company, Apartment } from "../types/models";
 
 const API_BASE_URL = 'http://localhost:5000/api';
 
@@ -9,5 +9,9 @@ async function fetchData<T>(endpoint: string): Promise<T> {
 }
 
 export async function fetchCompanies(): Promise<Company[]> {
-    return fetchData<Company[]>('/company');
+    return await fetchData<Company[]>('/company');
+}
+
+export async function fetchApartments(companyId: number): Promise<Apartment[]> {
+    return await fetchData<Apartment[]>(`/apartment?companyId=${companyId}`);
 }
