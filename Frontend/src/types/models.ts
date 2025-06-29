@@ -7,4 +7,5 @@ export type Apartment = {
   id: number;
   companyId: number;
   address: string;
+  hasExpiringContract: boolean;
 };

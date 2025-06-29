@@ -15,3 +15,7 @@ export async function fetchCompanies(): Promise<Company[]> {
 export async function fetchApartments(companyId: number): Promise<Apartment[]> {
     return await fetchData<Apartment[]>(`/apartment?companyId=${companyId}`);
 }
+
+export async function fetchApartmentsWithExpiringContracts(companyId: number): Promise<Apartment[]> {
+    return await fetchData<Apartment[]>(`/apartment/expiring-contracts?companyId=${companyId}`);
+}
