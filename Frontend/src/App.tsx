@@ -4,7 +4,7 @@ import { useApartmentsLoader } from "./hooks/useApartmentsLoader";
 import type { Company } from "./types/models";
 import { CompanyList } from "./components/company/CompanyList";
 import { ApartmentList } from "./components/apartment/ApartmentList";
-
+import "./App.css";
 
 export default function App() {
   const companies = useCompaniesLoader();
@@ -13,7 +13,7 @@ export default function App() {
   
 
   return (
-    <div>
+    <div className="appContainer">
       <CompanyList
         companies={companies}
         selectedId={selectedCompany?.id}

@@ -1,6 +1,7 @@
 import React from "react";
 import { ApartmentCard } from "./ApartmentCard";
 import type { Company, Apartment } from "../../types/models";
+import "../../styles/shared.css";
 
 interface ApartmentListProps {
     company: Company | null;
@@ -24,8 +25,8 @@ export const ApartmentList: React.FC<ApartmentListProps> = (p) => {
         : renderApartments(p.apartments);
 
     return (
-        <section>
-            <h3>Lägenheter hos {p.company.name}</h3>
+        <section className="contentList">
+            <h2>Lägenheter hos {p.company.name}</h2>
             {content}
         </section>
     );

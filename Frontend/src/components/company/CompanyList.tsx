@@ -1,6 +1,7 @@
 import React from "react";
 import { CompanyCard } from "./CompanyCard";
 import type { Company } from "../../types/models";
+import "../../styles/shared.css";
 
 interface CompanyListProps {
     companies: Company[];
@@ -9,7 +10,7 @@ interface CompanyListProps {
 }
 
 export const CompanyList: React.FC<CompanyListProps> = (p) => (
-    <section>
+    <section className="contentList">
         <h3>Fastighetsbolag</h3>
         {p.companies.map(company => (
             <CompanyCard

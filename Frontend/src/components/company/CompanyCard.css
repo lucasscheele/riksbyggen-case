@@ -1,0 +1,14 @@
+.company {
+    cursor: pointer;
+    color: #d51c29;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.company:hover {
+    color: white;
+    background-color: #d51c28;
+}
+
+.selected {
+    border-left: 4px solid #d51c29;
+}
