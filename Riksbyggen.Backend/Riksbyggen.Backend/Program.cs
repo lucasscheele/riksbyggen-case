@@ -39,6 +39,7 @@ if (app.Environment.IsDevelopment())
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
     db.Database.EnsureCreated();
+    DbSeeder.Seed(db);
 }
 
 
