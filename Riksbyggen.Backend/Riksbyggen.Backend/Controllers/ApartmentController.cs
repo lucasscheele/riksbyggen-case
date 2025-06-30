@@ -23,7 +23,6 @@ namespace Riksbyggen.Backend.Controllers
         [Route("expiring-contracts")]
         public async Task<ActionResult<IEnumerable<Apartment>>> GetApartmentsWithExpiringContracts(int companyId)
         {
-            var currentDate = DateTime.Now.Date;
             var apartments = await context.Apartments
                 .Where(x => x.CompanyId == companyId)
                 .Include(x => x.Contracts)
@@ -35,12 +34,14 @@ namespace Riksbyggen.Backend.Controllers
                 return NotFound("No apartments found for company");
             }
 
+            var currentDate = DateTime.Now.Date;
+
             var apartmentsWithExpiringContracts = apartments.Where(
                 apartment => apartment.Contracts.Any(
                     contract =>
                      contract.EndDate > currentDate &&
                      contract.EndDate < currentDate.AddMonths(3)
-            ));
+                ));
            
             return Ok(apartmentsWithExpiringContracts);
         }
